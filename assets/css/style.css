@@ -217,10 +217,9 @@ body {
     margin: 20px 0;
     max-height: 250px;
 }
-.tecnologias img {
-    position: relative;
-    max-width: 100%;
-}
+
+
+
 .tecnologias p {
     font-size: 1.2em;
     padding: 5px 10px 0 10px;
@@ -481,6 +480,10 @@ footer a {
         display: block;
         margin: 0 auto;
         
+    }
+    .imgTec {
+        width: 50px;
+        margin: 0 auto;
     }
 }
 
