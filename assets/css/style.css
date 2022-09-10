@@ -215,6 +215,7 @@ body {
     padding: 10px;
     background-color: whitesmoke;
     margin: 20px 0;
+    max-height: 180px;
 }
 
 .tecnologias p {
