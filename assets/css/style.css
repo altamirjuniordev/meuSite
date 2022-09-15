@@ -155,8 +155,19 @@ body {
     color: var(--font-verde);
 }
 
+.homeFoto div{
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding: 5px;
+    max-width: 400px;
+}
+
 .homeFoto img {
-    border: 4px solid var(--font-verde);
+    border-radius: 50%;
+   
+    width: 100%;
+    
 }
 
 
@@ -190,7 +201,7 @@ body {
     background-color: #0c1013;
     margin: 0 auto;
     padding-top: 65px;
-    min-height: 100vh;
+
 }
 
 .sobreMim h2 {
@@ -203,16 +214,18 @@ body {
 
 .sobreMim p {
     padding: 20px;
-    font-size: max(14px, 1.6vw);
+    font-size: max(17px, 1.7vw);
 }
 
-
+.imgTec {
+    width: 70px;
+    margin: 0 auto;
+}
 
 .tecnologias {
     border: 1px solid black;
     border-radius: 20px;
     max-width: 150px;
-    padding: 10px;
     background-color: whitesmoke;
     margin: 20px 0;
     max-height: 250px;
@@ -221,8 +234,8 @@ body {
 
 
 .tecnologias p {
-    font-size: 1.2em;
-    padding: 5px 10px 0 10px;
+    font-size: 1em;
+    padding-top: 5px;
     color: #000;
     text-align: start;
 }
@@ -247,15 +260,22 @@ body {
 
 
 .certificados .badge {
-    font-weight: 400;
     color: white !important;
 }
+
 
 .element-item a {
     text-decoration: none;
     color: white;
 }
 
+.element-item {
+    transition: transform .5s;
+}
+
+.element-item:hover {
+    transform: scale(1.1);
+}
 
 .certificados .element-item h5 {
     font-size: 16px;
@@ -264,13 +284,9 @@ body {
 .certificados .element-item img {
     border-radius: 5px;
     transition: all ease-out 0.2s;
-   
-
 }
 
-.certificados .element-item img:hover {
-    box-shadow: 0 0 100px 0 rgba(0, 50, 0, 0.4);
-}
+
 
 .certificados .button-group {
     margin-bottom: 30px;
@@ -282,7 +298,7 @@ body {
     padding: 0;
     margin: 0;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     outline: none;
     color: whitesmoke;
   }
@@ -310,6 +326,10 @@ footer h4 {
 footer a {
     color: aliceblue;
     text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--font-verde);
 }
 
 .footer_social {
@@ -401,7 +421,13 @@ footer a {
     margin: 0 auto;
 }
 
+.projetos {
+    margin: 0 auto;
+}
+
+
 .exercicio {
+    margin: auto;
     max-width: 355px;
     background-color: #000;
     margin-bottom: 20px;
@@ -480,6 +506,10 @@ footer a {
         display: block;
         margin: 0 auto;
         
+    }
+
+    .homeFoto div {
+        max-width: 210px;
     }
     .imgTec {
         width: 100px;
